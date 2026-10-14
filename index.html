@@ -6,6 +6,15 @@
 <title>Ugarion – Real-time systems for industry, audio and video</title>
 <meta name="description" content="Ugarion builds real-time communication for industry, audio and video – hardware and software, from embedded firmware to its own AI-enabled PLC and HMI. Munich, Germany.">
 <meta name="theme-color" content="#0a0c0f">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://ugarion.com/">
+<meta property="og:site_name" content="Ugarion">
+<meta property="og:title" content="Ugarion – Real-time systems">
+<meta property="og:description" content="Real-time communication for industry, audio and video. Native Rust EtherCAT® stack, Audio over IP, embedded systems.">
+<meta property="og:image" content="https://ugarion.com/assets/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
 <link rel="icon" href="/assets/mark.svg" type="image/svg+xml">
 <link rel="stylesheet" href="/assets/style.css">
 </head>
@@ -14,20 +23,31 @@
   <div class="card wide">
     <svg class="mark" viewBox="0 0 64 64" aria-hidden="true"><path d="M14 18 L32 26 L14 34 Z" fill="#e58a57"/><rect x="30" y="24.5" width="22" height="3" rx="1.5" fill="#e58a57"/><path d="M14 36 L26 41 L14 46 Z" fill="#e58a57" opacity=".55"/><rect x="24.5" y="40" width="14" height="2" rx="1" fill="#e58a57" opacity=".55"/></svg>
     <h1 class="word">UGARION</h1>
-    <div class="rule" aria-hidden="true"></div>
+    <svg class="signal" viewBox="0 0 600 24" preserveAspectRatio="none" aria-hidden="true"><path d="M0 20 H30 V4 H60 V20 H90 V4 H120 V20 H150 V4 H180 V20 H210 V4 H240 V20 H270 V4 H300 V20 H330 V4 H360 V20 H390 V4 H420 V20 H450 V4 H480 V20 H510 V4 H540 V20 H570 V4 H600"/></svg>
     <p class="eyebrow">Real-time systems</p>
     <p class="tagline">Real-time communication for industry, audio and video.</p>
     <p class="sub">Hardware and software – from embedded firmware to our own AI-enabled PLC and HMI.</p>
 
+    <ul class="proof" aria-label="Measured in our lab">
+      <li><span class="n">8<small>µs</small></span><span class="l">cycle time on Linux</span></li>
+      <li><span class="n">±3<small>ns</small></span><span class="l">clock synchronization</span></li>
+      <li><span class="n">165<small>ns</small></span><span class="l">cut-through at 1&nbsp;Gbit/s</span></li>
+    </ul>
+
     <ul class="caps" aria-label="What we do">
-      <li><h2>Industrial Communication</h2><p>EtherCAT® · Distributed&nbsp;Clocks · IEEE&nbsp;1588</p></li>
+      <li><h2>Industrial Communication</h2><p>EtherCAT® Master (Class&nbsp;A&nbsp;target) &amp; SubDevice · Distributed&nbsp;Clocks · IEEE&nbsp;1588</p></li>
       <li><h2>Audio &amp; Video</h2><p>Audio&nbsp;over&nbsp;IP · Beamforming · Video&nbsp;processing</p></li>
       <li><h2>Embedded Systems</h2><p>Embedded&nbsp;Linux · RTOS · Bare-metal · Drivers</p></li>
       <li><h2>PLC &amp; HMI <span class="soon">In development</span></h2><p>IEC&nbsp;61131-3 · Edge&nbsp;AI</p></li>
     </ul>
+    <dl class="stack">
+      <div><dt>Stack</dt><dd>Native Rust · no_std · forbid(unsafe_code) · platform&#8209;independent</dd></div>
+      <div><dt>Runtime</dt><dd>Logical Execution Time (LET) · WebAssembly&#8209;sandboxed control logic · zero&#8209;copy process&nbsp;image</dd></div>
+      <div><dt>API</dt><dd>Language-agnostic via C&nbsp;ABI · C/C++ · Python · Rust · IEC&nbsp;61131-3</dd></div>
+    </dl>
 
-    <a class="mail" href="mailto:info@ugarion.com">info@ugarion.com</a>
-    <p class="note">Our full website is on its way.</p>
+    <a class="cta" href="mailto:info@ugarion.com?subject=Hello%20Ugarion">Talk to an engineer <span aria-hidden="true">→</span></a>
+    <p class="note"><a class="mail" href="mailto:info@ugarion.com">info@ugarion.com</a> · Our full website is on its way.</p>
     <p class="de" lang="de">Echtzeit-Kommunikation für Industrie, Audio und Video – Hardware und Software, bis zur eigenen Steuerung mit KI. Unsere Website entsteht gerade.</p>
   </div>
 </main>
