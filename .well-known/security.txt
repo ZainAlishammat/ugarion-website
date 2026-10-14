@@ -1,0 +1,5 @@
+# Ugarion – security contact (RFC 9116)
+Contact: mailto:info@ugarion.com
+Expires: 2027-04-15T00:00:00.000Z
+Preferred-Languages: en, de
+Canonical: https://ugarion.com/.well-known/security.txt

@@ -57,7 +57,9 @@ a { color: inherit; }
 .caps li:nth-child(2n) { padding: 18px 0 18px 20px; border-left: 1px solid var(--line); }
 .caps h2 { font-size: 15px; font-weight: 500; margin: 0 0 6px; color: var(--text); letter-spacing: 0; display: flex; align-items: baseline; flex-wrap: wrap; gap: 4px 10px; }
 .caps p { margin: 0; font-family: var(--mono); font-size: 12px; line-height: 1.6; color: var(--muted); }
-.caps .soon { font-family: var(--mono); font-size: 10.5px; font-weight: 400; letter-spacing: 0.08em; text-transform: uppercase; color: var(--clay); }
+.caps .soon, .caps .tag { font-family: var(--mono); font-size: 10.5px; font-weight: 400; letter-spacing: 0.08em; text-transform: uppercase; color: var(--clay); }
+/* Sicherheit als durchgehende Zeile unter den vier Leistungsfeldern */
+.caps li.wide { grid-column: 1 / -1; padding: 18px 0; border-left: 0; }
 .note { margin: 14px 0 0; font-size: 13px; color: var(--muted); }
 .note .mail { font-size: 13px; }
 
