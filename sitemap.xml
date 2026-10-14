@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- Nur indexierbare Seiten: Impressum/Datenschutz tragen bewusst noindex (Wohnadresse nicht in Suchergebnisse). -->
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://ugarion.com/</loc><lastmod>2026-10-15</lastmod></url>
-  <url><loc>https://ugarion.com/impressum.html</loc><lastmod>2026-10-15</lastmod></url>
-  <url><loc>https://ugarion.com/datenschutz.html</loc><lastmod>2026-10-15</lastmod></url>
 </urlset>
