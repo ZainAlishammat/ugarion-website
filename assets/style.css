@@ -38,7 +38,7 @@ a { color: inherit; }
   -webkit-mask-image: radial-gradient(closest-side, #000, transparent);
 }
 .card { position: relative; text-align: center; max-width: 30rem; }
-.mark { display: block; width: 52px; height: 52px; margin: 0 auto 22px; }
+.mark { display: block; width: 84px; height: 84px; margin: 0 auto 18px; overflow: visible; }
 /* Wortmarke „Keilschrift“ (08_Marke) als Inline-SVG */
 .word { margin: 0 0 24px; line-height: 0; }
 .word .wm { display: block; width: 200px; height: auto; margin: 0 auto; }
